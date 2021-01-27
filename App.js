@@ -19,6 +19,7 @@ export default function App() {
             "GTSectraFineRegular": require('./assets/fonts/GT-Sectra-Fine-Regular.ttf'),
             "MontserratBlack": require('./assets/fonts/Montserrat-Black.ttf'),
             "MontserratMedium": require('./assets/fonts/Montserrat-Medium.ttf'),
+            "MontserratSemiBold": require('./assets/fonts/Montserrat-SemiBold.ttf'),
         })
         setLoading(false);
     } catch (e) {
