@@ -17,7 +17,8 @@ export default function App() {
         await Font.loadAsync({
             'Gilroy-Bold': require('./assets/fonts/Gilroy-Bold.ttf'),
             "GTSectraFineRegular": require('./assets/fonts/GT-Sectra-Fine-Regular.ttf'),
-            "Montserrat-Black": require('./assets/fonts/Montserrat-Black.ttf')
+            "MontserratBlack": require('./assets/fonts/Montserrat-Black.ttf'),
+            "MontserratMedium": require('./assets/fonts/Montserrat-Medium.ttf'),
         })
         setLoading(false);
     } catch (e) {
