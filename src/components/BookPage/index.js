@@ -8,6 +8,7 @@ import Header from '../Header';
 import Cover from '../Cover';
 import Title from '../Title';
 import Rating from '../Rating';
+import Action from '../Action'
 
 // Récupération de l'image
 const book1 = require('../../../assets/images/book1.png')
@@ -23,6 +24,7 @@ const BookPage = () => {
                 <Title title="The Jungle Book" />
                 <Title title="Rudyard Kliping" customStyle={styles.sbTitle}/>
                 <Rating />
+                <Action />
             </View>
         </View>
     )
